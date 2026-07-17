@@ -366,16 +366,13 @@
                 align-items: flex-start;
                 gap: 18px;
                 padding: 40px 24px;
-                /* 不再设置背景色，保留伪元素背景图 */
             }
-            /* 不再隐藏 ::before 和 ::after，左右背景图继续显示 */
+            /* 手机端隐藏头像 */
             .hero-avatar {
-                width: 80px;
-                height: 80px;
+                display: none;
             }
             .hero-info h1 {
                 font-size: 1.6rem;
-                /* 添加浅色文字阴影，提高可读性 */
                 text-shadow: 0 1px 3px rgba(255,255,255,0.8);
             }
             .hero-info .tagline {
